@@ -1,0 +1,113 @@
+
+
+.sectionForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionForm form{
+    display: flex;
+    width: 60%;
+    height: 65%;
+    background-color: #cdfcf65d;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgb(167, 165, 165);
+    animation: animationHidenForm 1.8s;
+}
+
+@keyframes animationHidenForm{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.sectionForm form .map{
+    width: 63%;
+    border-radius: 5px 0 0 5px;
+    background-image: url('https://i.imgur.com/axyBHm0.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.sectionForm form .contactForm{
+    display: flex;
+    width: calc(100% - 63%);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.sectionForm form .contactForm label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.sectionForm form .contactForm label input {
+    width: 85%;
+    outline: none;
+    font-weight: bold;
+    padding-left: .3em;
+    border: none;
+    border-bottom: 1.5px solid;
+    border-radius: 0 0 5px 3px;
+    box-shadow: 0 0 3px grey;
+}   
+.sectionForm form .contactForm label input::placeholder {
+    font-weight: bold;
+}   
+.sectionForm form .contactForm label textarea {
+    width: 85%;
+    height: 120px;
+    resize: none;
+    outline: none;
+    padding-left: .3em;
+    border: none;
+    border-bottom: 1.5px solid;
+    border-radius: 0 0 5px 3px;
+    box-shadow: 0 0 3px grey;
+    font-weight: bold;
+}
+.sectionForm form .contactForm label textarea::placeholder {
+    font-weight: bold;
+}
+
+.sectionForm form .contactForm .btnSubmit{
+    outline: none;
+    background: none;
+    border: none;
+    background-color: rgb(156, 247, 216);
+    color: rgb(49, 48, 48);
+    padding: .3em 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+    transition: all .8s;
+}
+
+
+
+.sectionForm form .contactForm .btnSubmit:hover{
+    color: rgb(156, 247, 216);
+    background-color: rgb(49, 48, 48);
+}
+
+@media (max-width: 990px) {
+    .sectionForm form{
+        width: 70%;
+    }
+    .sectionForm form .contactForm{
+        width: 100%;
+    }
+    .sectionForm form .map{
+        display: none;
+    }
+    .sectionForm form .contactForm label input {
+        width: 70%;
+    }   
+    .sectionForm form .contactForm label textarea {
+        width: 70%;
+    }
+}

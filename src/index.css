@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+@keyframes animationNav {
+    0%{
+        top: -4em;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+.navbar{
+    position: fixed !important;
+    width: 100vw !important;
+    top: 0;
+    left: 0;
+    background: #cdfcf65d !important;
+    backdrop-filter: blur(3px) !important;
+    animation: animationNav 1.5s ;
+    z-index: 200 !important;
+    box-shadow: 0 0 7px rgb(173, 169, 169);
+}
+
