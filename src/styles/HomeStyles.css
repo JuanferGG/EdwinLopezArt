@@ -133,7 +133,7 @@ section .perfil .info {
         text-align: center;
     }
     .galery {
-        animation: galleryAnimationResponsive 24s infinite;
+        animation: galleryAnimationResponsive 28s infinite;
     }
     .sect_02{
         height: fit-content;
