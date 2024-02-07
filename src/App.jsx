@@ -22,7 +22,6 @@ function App() {
         <Route path='/gallery' element={ <GalleryPage/> } />
         <Route path='/advertising' element={ <AdvertisingPage/> } />
         <Route path='/contact' element={ <ContactPage/> } />
-        <Route path='/about' element= { <AbouPage/> } />
       </Routes>
     </BrowserRouter>
   )
