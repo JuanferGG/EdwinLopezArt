@@ -10,8 +10,6 @@ import GalleryPage from './pages/GalleryPage'
 import AdvertisingPage from './pages/AdvertisingPage'
 import ContactPage from './pages/ContactPage'
 
-import AbouPage from './pages/AbouPage'
-
 function App() {
 
   return (
