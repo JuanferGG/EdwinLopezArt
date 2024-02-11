@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg fw-bold">
             <div className="container">
-                <a className="navbar-brand" href="/"><img src="https://img.freepik.com/vector-gratis/diseno-fondo-texturas-pintura_1343-68.jpg?w=2000" className="rounded-circle" style={{ width: '40px' }} alt="" /></a>
+                <a className="navbar-brand" href="/"><img src="https://i.imgur.com/fcopJxZ.jpg" className="rounded-circle" style={{ width: '40px' }} alt="" /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
