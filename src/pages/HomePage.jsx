@@ -124,7 +124,7 @@ const HomePage = () => {
 
                 <section className="d-flex sect_02" id="about" style={{ justifyContent: 'center', alignItems: 'center', background: '#e7fefb', paddingTop: '4em', }}>
                     <div className="container d-flex gap-5" style={{ justifyContent: 'center' }}>
-                        <img src="https://i.imgur.com/1AyYVR3.jpg" style={{ width: '350px', height: '500px', borderRadius: '7px', boxShadow: '0 0 5px grey' }} alt="" />
+                        <img src="https://i.imgur.com/V4uIJm6.jpg" style={{ width: '350px', height: '500px', borderRadius: '7px', boxShadow: '0 0 5px grey' }} alt="" />
                         <div className="container_info d-flex flex-column" style={{ justifyContent: 'center', alignItems: 'center', width: '400px' }}>
                             <h1 style={{ width: '80%', fontSize: '3em', padding: '.4em 0', fontWeight: 'bold' }} className="fw-bold">¿Quien Soy?</h1>
                             <p style={{ width: '100%', fontSize: '1.3em', textWrap: 'balance' }}>Soy <b>Edwin López Fajardo</b>, un artista multidisciplinario apasionado por el arte y la belleza. Como <b>pintor, artista plástico y publicista</b>, mi trabajo busca capturar la esencia de la vida y ofrecer una experiencia estética única y memorable.</p>
@@ -139,7 +139,7 @@ const HomePage = () => {
                         <p style={{ maxWidth: '45ch', minWidth: '20ch', padding: '0 1em', fontSize: '1.3em', textWrap: 'balance' }}>Bienvenido al mundo de un artista que vive y respira su arte. Con una <b>dedicación inquebrantable</b> y una <b>visión única</b>, este creador infunde vida a cada proyecto con una mezcla perfecta de <b>talento y pasión</b>. Explora su universo creativo y déjate inspirar por la belleza que emana de su trabajo.</p>
                     </div>
                     <article style={{ width: '50%', height: '100%' }}>
-                        <img className='imgProfile' src="https://i.imgur.com/2MgJTxQ.jpg" style={{ width: '100%', position: 'relative', top: '1px', boxShadow: '0 0 10px grey' }} alt="" />
+                        <img className='imgProfile' src="https://i.imgur.com/WVFl79z.jpg" style={{ width: '100%', position: 'relative', top: '1px', boxShadow: '0 0 10px grey' }} alt="" />
                     </article>
                 </section>
 
