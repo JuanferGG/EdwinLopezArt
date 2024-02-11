@@ -112,8 +112,8 @@ const HomePage = () => {
 
                     <div className="perfil">
                         <img className="rounded-circle"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROHwUI09Nq6EcB4tDXjHB6FsAhUryFypNiEg&usqp=CAU"
-                            alt="" />
+                            src="https://i.imgur.com/PSDeBSD.jpg"
+                            alt="img_photo_profile" />
                         <div className="info">
                             <h1 className="fs-2 fw-bold" >Edwin Lopez Fajardo</h1>
                             <p className="fs-5" style={{ width: '80%' }}><b>Creatividad</b>, Técnica, Pasión, Originalidad.</p>

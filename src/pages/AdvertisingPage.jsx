@@ -19,6 +19,10 @@ import Testimonials from '../components/Pures/Testimonials';
 
 const AdvertisingPage = () => {
 
+    useEffect(() => {
+        document.title = "Adversing Page";
+    }, []);
+
     return (
         <main>
 
