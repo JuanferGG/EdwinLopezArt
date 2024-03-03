@@ -5,11 +5,11 @@ const VideosGallery = () => {
     return (
         <div className='d-flex gap-4 w-100 flex-wrap justify-content-center px-xl-3'>
             <div style={{ width: '420px' }}>
-                <Player
+                {/* <Player
                     poster='https://i.imgur.com/wUJ5cEK.jpg'
                 >
                     <source src='vidEdwin.mp4' />
-                </Player>
+                </Player> */}
             </div>
         </div>
     );
