@@ -7,6 +7,7 @@ import Footer from "../components/Footer/Footer";
 import { photos } from "../assets/PhotosGalerry";
 
 import '../styles/GalleryStyles.css'
+import VideosGallery from "../components/Pures/VideosGallery";
 
 function GalleryPage() {
     const [currentImage, setCurrentImage] = useState(0);
@@ -47,6 +48,10 @@ function GalleryPage() {
                         </Modal>
                     )}
                 </ModalGateway>
+            </div>
+            <div className="pb-5">
+                <h2 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '4em', margin: '.7em 0'  }}>Videos Edwin Lopez</h2>
+                <VideosGallery/>
             </div>
             <Footer />
         </main>

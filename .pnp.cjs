@@ -44,6 +44,7 @@ const RAW_RUNTIME_STATE =
           ["react-router-dom", "virtual:bac2a27d948aaae697ab15d3004fd1c3a8fec97cb3d8f3f6ff5eba946022a46875559dd888838d9414b3cdbcfb42f9e4c53355dec0837cac7258fd578341997f#npm:6.22.0"],\
           ["react-toastify", "virtual:bac2a27d948aaae697ab15d3004fd1c3a8fec97cb3d8f3f6ff5eba946022a46875559dd888838d9414b3cdbcfb42f9e4c53355dec0837cac7258fd578341997f#npm:10.0.4"],\
           ["react-vertical-timeline-component", "npm:3.6.0"],\
+          ["video-react", "virtual:bac2a27d948aaae697ab15d3004fd1c3a8fec97cb3d8f3f6ff5eba946022a46875559dd888838d9414b3cdbcfb42f9e4c53355dec0837cac7258fd578341997f#npm:0.16.0"],\
           ["vite", "virtual:bac2a27d948aaae697ab15d3004fd1c3a8fec97cb3d8f3f6ff5eba946022a46875559dd888838d9414b3cdbcfb42f9e4c53355dec0837cac7258fd578341997f#npm:5.0.12"]\
         ],\
         "linkType": "SOFT"\
@@ -1437,6 +1438,7 @@ const RAW_RUNTIME_STATE =
           ["react-router-dom", "virtual:bac2a27d948aaae697ab15d3004fd1c3a8fec97cb3d8f3f6ff5eba946022a46875559dd888838d9414b3cdbcfb42f9e4c53355dec0837cac7258fd578341997f#npm:6.22.0"],\
           ["react-toastify", "virtual:bac2a27d948aaae697ab15d3004fd1c3a8fec97cb3d8f3f6ff5eba946022a46875559dd888838d9414b3cdbcfb42f9e4c53355dec0837cac7258fd578341997f#npm:10.0.4"],\
           ["react-vertical-timeline-component", "npm:3.6.0"],\
+          ["video-react", "virtual:bac2a27d948aaae697ab15d3004fd1c3a8fec97cb3d8f3f6ff5eba946022a46875559dd888838d9414b3cdbcfb42f9e4c53355dec0837cac7258fd578341997f#npm:0.16.0"],\
           ["vite", "virtual:bac2a27d948aaae697ab15d3004fd1c3a8fec97cb3d8f3f6ff5eba946022a46875559dd888838d9414b3cdbcfb42f9e4c53355dec0837cac7258fd578341997f#npm:5.0.12"]\
         ],\
         "linkType": "SOFT"\
@@ -2915,6 +2917,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["lodash.throttle", [\
+      ["npm:4.1.1", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/lodash.throttle-npm-4.1.1-856641af92-10c0.zip/node_modules/lodash.throttle/",\
+        "packageDependencies": [\
+          ["lodash.throttle", "npm:4.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["loose-envify", [\
       ["npm:1.4.0", {\
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/loose-envify-npm-1.4.0-6307b72ccf-10c0.zip/node_modules/loose-envify/",\
@@ -4045,6 +4056,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["redux", [\
+      ["npm:4.2.1", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/redux-npm-4.2.1-e7e2cf2e37-10c0.zip/node_modules/redux/",\
+        "packageDependencies": [\
+          ["redux", "npm:4.2.1"],\
+          ["@babel/runtime", "npm:7.23.9"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["reflect.getprototypeof", [\
       ["npm:1.0.4", {\
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/reflect.getprototypeof-npm-1.0.4-fa901640c3-10c0.zip/node_modules/reflect.getprototypeof/",\
@@ -4715,6 +4736,37 @@ const RAW_RUNTIME_STATE =
         ],\
         "packagePeers": [\
           "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["video-react", [\
+      ["npm:0.16.0", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/video-react-npm-0.16.0-caf9737344-10c0.zip/node_modules/video-react/",\
+        "packageDependencies": [\
+          ["video-react", "npm:0.16.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:bac2a27d948aaae697ab15d3004fd1c3a8fec97cb3d8f3f6ff5eba946022a46875559dd888838d9414b3cdbcfb42f9e4c53355dec0837cac7258fd578341997f#npm:0.16.0", {\
+        "packageLocation": "./.yarn/__virtual__/video-react-virtual-c68bd4b6c1/3/AppData/Local/Yarn/Berry/cache/video-react-npm-0.16.0-caf9737344-10c0.zip/node_modules/video-react/",\
+        "packageDependencies": [\
+          ["video-react", "virtual:bac2a27d948aaae697ab15d3004fd1c3a8fec97cb3d8f3f6ff5eba946022a46875559dd888838d9414b3cdbcfb42f9e4c53355dec0837cac7258fd578341997f#npm:0.16.0"],\
+          ["@babel/runtime", "npm:7.23.9"],\
+          ["@types/react", "npm:18.2.52"],\
+          ["@types/react-dom", "npm:18.2.18"],\
+          ["classnames", "npm:2.5.1"],\
+          ["lodash.throttle", "npm:4.1.1"],\
+          ["prop-types", "npm:15.8.1"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:bac2a27d948aaae697ab15d3004fd1c3a8fec97cb3d8f3f6ff5eba946022a46875559dd888838d9414b3cdbcfb42f9e4c53355dec0837cac7258fd578341997f#npm:18.2.0"],\
+          ["redux", "npm:4.2.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
           "react"\
         ],\
         "linkType": "HARD"\
