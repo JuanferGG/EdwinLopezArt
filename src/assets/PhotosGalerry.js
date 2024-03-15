@@ -308,5 +308,20 @@ export const photos = [
         src: "https://i.imgur.com/gf6nrTf.jpg",
         width: 3,
         height: 4
+    },
+    {
+        src: "https://i.imgur.com/wZtYm1J.jpg",
+        width: 4,
+        height: 4
+    },
+    {
+        src: "https://i.imgur.com/LuRvSo2.jpg",
+        width: 4,
+        height: 4
+    },
+    {
+        src: "https://i.imgur.com/0yxePKr.jpg",
+        width: 2,
+        height: 3
     }
 ];
