@@ -69,18 +69,18 @@ const ContactPage = () => {
 
                     </div>
                     <div className='contactForm'>
-                        <h1>Contact Me!</h1>
+                        <h1 style={{ fontWeight: 'bold', fontSize: '2.8em' }}>Contactame</h1>
                         <label>
-                            <input required name='to_name' placeholder='Nombre - Carlos' value={formValues.to_name} onChange={handleChange} />
+                            <input required name='to_name' placeholder='Tú Nombre - Carlos' value={formValues.to_name} onChange={handleChange} />
                         </label>
                         <label>
-                            <input required name='to_last_name' placeholder='Apellido - Diaz' value={formValues.to_last_name} onChange={handleChange} />
+                            <input required name='to_last_name' placeholder='Tú Apellido - Diaz' value={formValues.to_last_name} onChange={handleChange} />
                         </label>
                         <label>
-                            <input required name='to_cellphone' placeholder='Telefono - 317 757 6245' value={formValues.to_cellphone} onChange={handleChange} />
+                            <input required name='to_cellphone' placeholder='Tú Telefono - 317 757 6245' value={formValues.to_cellphone} onChange={handleChange} />
                         </label>
                         <label>
-                            <input required name='to_email' placeholder='Correo - example@gmail.com' value={formValues.to_email} onChange={handleChange} />
+                            <input required name='to_email' placeholder='Tú Correo - example@gmail.com' value={formValues.to_email} onChange={handleChange} />
                         </label>
                         <label>
                             <textarea required name='message' placeholder='Haz realidad tus sueños, da una breve descripción de tus ideas' value={formValues.message} onChange={handleChange} />
