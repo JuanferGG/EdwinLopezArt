@@ -128,7 +128,7 @@ const HomePage = () => {
                         <div className="container_info d-flex flex-column" style={{ justifyContent: 'center', alignItems: 'center', width: '400px' }}>
                             <h1 style={{ width: '80%', fontSize: '3em', padding: '.4em 0', fontWeight: 'bold' }} className="fw-bold">¿Quien Soy?</h1>
                             <p style={{ width: '100%', fontSize: '1.3em', textWrap: 'balance' }}>Soy <b>Edwin López Fajardo</b>, un artista multidisciplinario apasionado por el arte y la belleza. Como <b>pintor, artista plástico y publicista</b>, mi trabajo busca capturar la esencia de la vida y ofrecer una experiencia estética única y memorable.</p>
-                            <a className="down_cv" id="down_cv" href="https://drive.google.com/uc?id=1H1AhMAW-gjoRd0-zC3HHmX-sG64LKIsq&export=download&authuser=0" target="_blank" rel="noopener noreferrer">Here CV</a>
+                            <a className="down_cv" id="down_cv" href="https://drive.google.com/uc?id=1H1AhMAW-gjoRd0-zC3HHmX-sG64LKIsq&export=download&authuser=0" target="_blank" rel="noopener noreferrer">Descargar CV</a>
                         </div>
                     </div>
                 </section>

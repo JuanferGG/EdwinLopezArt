@@ -33,14 +33,14 @@ const AdvertisingPage = () => {
                 </div>
                 <div className="right">
                     <h2 style={{ fontSize: '3em', width: '12ch' }}>Haz Realidad <b>Tus Sueños</b></h2>
-                    <p style={{ minWidth: '80%', maxWidth: '80%', fontSize: '1.2em' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum tenetur ipsa perspiciatis repellat quos sequi non nesciunt ipsam nemo fugit suscipit accusamus ex, veritatis corporis praesentium molestias dolores quae. Voluptatem. <a href='#experiences'>Abajo</a></p>
+                    <p style={{ minWidth: '75%', maxWidth: '75%', fontSize: '1.4em' }}>Con mi pasión y experiencia, <b>transformo tus ideas</b> en obras concretas y vibrantes. Cada trazo y color se fusionan para dar vida a tus <b>visiones más profundas</b>. Juntos, podemos <b>convertir tus sueños</b> en una hermosa realidad.</p>
                 </div>
             </section>
 
             <section id='sect-02'>
                 <div className="left">
-                    <h2 style={{ fontSize: '3em', width: '12ch' }}>Haz Realidad <b>Tus Sueños</b></h2>
-                    <p style={{ minWidth: '80%', maxWidth: '80%', fontSize: '1.2em' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum tenetur ipsa perspiciatis repellat quos sequi non nesciunt ipsam nemo fugit suscipit accusamus ex, veritatis corporis praesentium molestias dolores quae. Voluptatem. <a href='#experiences'>Abajo</a></p>
+                    <h2 style={{ fontSize: '3em', width: '17ch', textAlign: 'center' }}>Descubre el <b>Arte en Cada Rincón</b></h2>
+                    <p style={{ minWidth: '73%', maxWidth: '73%', fontSize: '1.4em' }}>Explora un mundo de <b>creatividad y expresión</b> en cada detalle. Desde paisajes urbanos hasta retratos íntimos, cada obra cuenta una <b>historia única</b>. Sumérgete en un viaje visual donde el arte cobra vida y la <b>imaginación se convierte en realidad</b>. ¡Déjate inspirar y descubre el arte en cada rincón!</p>
                 </div>
                 <div className="right">
 
